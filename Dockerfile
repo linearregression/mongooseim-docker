@@ -17,7 +17,7 @@ RUN apt-get -q update
 RUN apt-get install -y erlang
 RUN apt-get install -y mongooseim
 
-EXPOSE 5222 5280 5269 
+EXPOSE 5222 5280 5269 4369
 #VOLUME ["/usr/lib/mongooseim/", "/usr/lib/mongooseim/"]
 
 CMD ["live"]
